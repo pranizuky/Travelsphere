@@ -5,7 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_height="match_parent"
     android:background="#D67804"
-    tools:context=".MainActivity" android:id="@+id/Karnataka" android:layout_width="match_parent">
+    tools:context=".MainActivity" android:id="@+id/maharashtra" android:layout_width="match_parent">
     <TextView
         android:text="Shirdi"
         android:layout_width="wrap_content"
@@ -17,13 +17,13 @@
         android:textColor="@color/white"/>
 
     <Button
-        android:id="@+id/button5"
-        android:layout_width="327dp"
-        android:layout_height="95dp"
+        android:id="@+id/Itenary11"
+        android:layout_width="322dp"
+        android:layout_height="52dp"
+        android:backgroundTint="#00BCD4"
         android:fontFamily="@font/lexend_deca"
         android:text="Itenary"
         android:textSize="25sp"
-        android:backgroundTint="#00BCD4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -31,10 +31,10 @@
         app:layout_constraintVertical_bias="0.198" />
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/LS11"
+        android:layout_width="316dp"
+        android:layout_height="52dp"
         android:backgroundTint="#00BCD4"
-        android:layout_width="327dp"
-        android:layout_height="95dp"
         android:fontFamily="@font/lexend_deca"
         android:text="Local Speciality"
         android:textSize="25sp"
@@ -45,30 +45,32 @@
         app:layout_constraintVertical_bias="0.424" />
 
     <Button
-        android:id="@+id/button11"
-        android:layout_width="327dp"
+        android:id="@+id/info11"
+        android:layout_width="329dp"
+        android:layout_height="51dp"
         android:backgroundTint="#00BCD4"
-        android:layout_height="95dp"
         android:fontFamily="@font/lexend_deca"
-        android:text="Information"
+        android:text="Queries"
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.682" />
+        app:layout_constraintVertical_bias="0.648" />
 
     <Button
-        android:id="@+id/button12"
-        android:layout_width="327dp"
+        android:id="@+id/ads11"
+        android:layout_width="325dp"
+        android:layout_height="55dp"
         android:backgroundTint="#00BCD4"
-        android:layout_height="95dp"
         android:fontFamily="@font/lexend_deca"
-        android:text="Additional spots"
+        android:text="Additional Spots"
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.558"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.938" />
+        app:layout_constraintVertical_bias="0.856" />
 </androidx.constraintlayout.widget.ConstraintLayout>
