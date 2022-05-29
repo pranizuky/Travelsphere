@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mumbai_itenary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D67804"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Mumbai_Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lexend_deca"
+        android:text="Reference Itenary"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="348dp"
+        android:layout_height="570dp"
+        android:fontFamily="@font/lexend_deca"
+        android:text="Day1:Places of interest in south Mumbai are Taj Mahal Hotel, Colaba, Prince of Wales Museum, Flora Fountain, Rajabai Clock Tower, Jehangir Art Gallery, Bombay stock exchange, Wankhede cricket stadium, World Trade Centre, Cuffe Parade, Nariman Point, Chatrapati Shivaji Terminus (Victoria Terminus railway station), Crawford market, Bhuleshwar, Chor Bazaar, Mumbai High Court, University Building, Taraporewala Aquarium, Chowpatty beac,Marine drive also known as Queen’s Necklace.  Day 2:  You can keep this day for Sanjay Gandhi National Park, Bandra Band Stand, Linking road, Juhu beach, ISKCON temple. Plan it accordingly so that you can spend the evening at Juhu beach.  Day 3:  You can visit Elephanta Caves, Haji Ali Dargah, Mahalaxmi race course, Hanging gardens, Malabar Hill, Kamala Nehru Udyan, Manibhavan (Gandhi Memorial), Nehru Centre, Royal Opera House etc.,  Day 4 : Keep this day for shopping and places missed out. Popular places for shopping are Linking Road, Colaba, Fashion Street, Hill Road, Gandhi Market – Sion, Dadar West, Hind Mata"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.737" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
